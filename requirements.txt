@@ -1,7 +1,8 @@
-kivy
-kivymd
+kivy=2.1.0
+kivymd=1.1.1
 kivy-deps.angle
 kivy-deps.glew
 kivy-deps.gstreamer
 kivy-deps.sdl2
 mindee
+plyer=2.0.0
