@@ -2,7 +2,7 @@
 
 Milestones:
 
-1. Preprocessing the Receipt Image [x]
+1. Preprocessing the Receipt Image [ x ]
     - Image Enhancement: Improve readability using OpenCV (e.g., grayscale conversion, noise removal, contrast enhancement).
     - Text Alignment: Correct distortions using perspective transformation.
     - Text Region Detection: Use edge detection and contouring to isolate text areas.
