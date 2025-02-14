@@ -40,7 +40,7 @@ def four_point_transform(image, pts):
 
     return warped
 
-
+# Image Pre-Processing Main
 def ImgPP(img_path):
     # CV read img
     img = cv2.imread(img_path)

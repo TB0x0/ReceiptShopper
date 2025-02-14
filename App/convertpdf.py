@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+# TB0x0
+# PDF Conversion 
 
 from pdf2image import convert_from_path as PDFConv
 import sys
