@@ -9,6 +9,8 @@ TEST_IMAGE = 'C:/proj/ReceiptShopper/Tests/testR1.jpg'
 
 def ocrCore(img):
     receipt, edges, thresh = preprocess.ImgPP(img)
-    return pt.image_to_string(img.fromarray(thresh))
+    return pt.image_to_string(thresh)
 
+
+#test OCR
 print(ocrCore(TEST_IMAGE))

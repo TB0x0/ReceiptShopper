@@ -72,7 +72,7 @@ def ImgPP(img_path):
     else:
         return None, edges, thresh
     
-
+'''
 # Test the function
 image_path = "C:/proj/ReceiptShopper/Tests/testR1.jpg"  # Replace with your image path
 receipt, edges, thresh = ImgPP(image_path)
@@ -83,3 +83,5 @@ if receipt.any():
     cv2.imshow("Thresholded", thresh)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+
+'''
