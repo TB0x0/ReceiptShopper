@@ -5,6 +5,8 @@ import pytesseract as pt
 import preprocess
 
 TEST_IMAGE = 'C:/proj/ReceiptShopper/Tests/testR1.jpg'
+pt.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
 # OCR
 
 def ocrCore(img):
